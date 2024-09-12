@@ -1,0 +1,152 @@
+body {
+    background-color: #0E1936;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #102A5A;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu select, .menu input {
+    margin-left: 20px;
+    padding: 13px;
+    border-radius: 10px;
+    right: 50px;
+    border: none;
+}
+
+.account a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.movie-detail {
+    display: flex;
+    background-color: #182D50;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.poster img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info {
+    margin-left: 20px;
+    flex: 1;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ratings .star {
+    color: #FFD700;
+    font-size: 24px;
+}
+
+.ratings .user-rating a {
+    color: #00AEEF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.trailer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.video-placeholder {
+    background-color: #333;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.play-button {
+    font-size: 24px;
+    color: #fff;
+}
+
+.duration {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.likes {
+    font-size: 16px;
+}
+
+.tags span {
+    background-color: #1F4266;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.details .detail-item {
+    margin-bottom: 10px;
+}
+
+.watchlist-button {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.watchlist-button:hover {
+    background-color: #E6B800;
+}
